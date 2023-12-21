@@ -25,8 +25,8 @@ print(f"""{Fore.CYAN + Style.BRIGHT}
 			
 """)
 
-username = input("bifonsol: ").strip()
-max_followers = int(input("5000: "))
+username = input("bifonsol").strip()
+max_followers = int(input("250"))
 
 users = []
 
