@@ -2,7 +2,7 @@ import csv
 import requests
 from colorama import Fore, Style, init
 
-TWTTRAPI_KEY = "XXXXXXXXXXXX" # get api key from https://twttrapi.com
+TWTTRAPI_KEY = "9ca7429f0amsh9d519ddbfc9a872p141e3ajsn8d200a40767c" # get api key from https://twttrapi.com
 
 field_names = ["id_str", "screen_name", "name", "followers_count", "friends_count"]
 
@@ -25,8 +25,8 @@ print(f"""{Fore.CYAN + Style.BRIGHT}
 			
 """)
 
-username = input("Enter username: ").strip()
-max_followers = int(input("Enter max followers to scrape: "))
+username = input("bifonsol: ").strip()
+max_followers = int(input("5000: "))
 
 users = []
 
